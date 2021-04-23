@@ -6,8 +6,82 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+<header>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BOOK CLUB</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="books.html">BOOKS</a>
+            <a class="p-2 text-dark" href="join.html">JOIN A BOOK CLUB</a>
+            <a class="p-2 text-dark" href="about.html">ABOUT</a>
+            <a class="p-2 text-dark" href="faqs.html">FAQS</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">SIGN IN</a>
+    </div>
+</header>
 <div id="book-bg">
+    <h1>BOOKS</h1>
     <img src="imges/books-1281581.jpg" alt="background top picture">
+</div>
+<div id="book-s1">
+    <p>Enter your email to receive BookClub' newsletter with reading recommendations
+                   <br>and the most popular book club books each month.
+    </p>
+    <input type="email" id="email" name="email" value="Enter your email:">
+    <button>SUBSCRIBE</button>
+    <br>
+    <hr>
+</div>
+<div class="row no-gutters">
+    <div class="col no-gutters">
+        <div class="leftside">
+            <h4>MOST POPULAR BOOKS OF ALL TIME</h4>
+            <div class="input-group">
+                <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>MOST POPULAR BOOKS OF ALL TIME</option>
+                    <option value="1">Top rated books of all time</option>
+                    <option value="2">Most popular books from April 2021</option>
+                    <option value="3">Most popular books from March 2021</option>
+                    <option value="4">Most popular books from February 2021</option>
+                    <option value="5">Most popular books from January 2021</option>
+                    <option value="6">Most popular books from December 2020</option>
+                    <option value="7">Most popular books from November 2020</option>
+                    <option value="8">Most popular books from October 2020</option>
+                </select>
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Click</button>
+                </div>
+            </div>
+        </div>
+        <div id="book-s2">
+            <div class="book-top">
+                <h1>1.</h1>
+                <img src="imges/81-349iYbfL.jpg" alt="Where the Crawdads Sing">
+            </div>
+            <div class="book-top">
+                <h4>Where the Crawdads Sing</h4>
+                <p>by Delia Owens</p>
+                <p>Summary: A #1 New York Times Best Seller and Reese Witherspoon Book Club pick,<br>
+                    Where the Crawdads Sing is at once an exquisite ode to the natural world,<br>
+                    a heartbreaking coming-of-age story, and a surprising tale of possible murder. <br>
+                    Owens reminds us that we are forever shaped by the children we once were, <br>
+                    and that we are all subject to the beautiful and violent secrets that nature keeps.
+                </p>
+                <h4 class=""></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col no-gutters">
+        <div class="rightside">
+            <div>
+            <div class="book-top">
+                <h1>1.</h1>
+                <img src="imges/81-349iYbfL.jpg" alt="Where the Crawdads Sing">
+            </div>
+            <div class="book-top">hello</div>
+        </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
