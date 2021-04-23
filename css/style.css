@@ -1,0 +1,112 @@
+/*______Reset_____*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*______main style_______*/
+
+html body{
+    font-family: sans-serif;
+}
+
+.section1 {
+    background-image: url("../imges/img-banner-4.7f87a631.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+    padding-bottom: 400px;
+    padding-left: 30px;
+}
+
+#banner-1 {
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+#button-1 {
+    text-align: center;
+    border-radius: 25px;
+    margin-left:333px;
+    margin-top: 40px;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#button-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.section-2 {
+    text-align: center;
+    padding: 40px;
+    margin: 60px;
+    font-size: 10px;
+}
+
+#section-2 {
+    margin: 40px;
+    font-size: 30px;
+}
+
+.box-1 {
+    width: 33.3%;
+    float: left;
+    padding: 10px 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#section-4 {
+
+    width: 20%;
+    float: left;
+    padding: 30px;
+}
+
+#section-3h {
+    margin-top: 60px;
+    padding-top: 100px;
+    padding-left: 600px;
+    padding-bottom: 80px;
+    /*text-align: center;*/
+}
+
+#section-5h {
+    text-align: center;
+    margin: 40px;
+
+}
+
+#section-5{
+    padding: 40px;
+    margin: 10px 40px;
+
+}
+
+.box-2 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+#section-6{
+    margin-top: 60px;
+}
+
+.box-3 {
+    margin-top: 60px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+/*---------books html------*/
+
+#book-bg img {
+  width: 100%;
+}
